@@ -1,0 +1,17 @@
+###################
+# Faction NameTag #
+###################
+
+name-config:
+  wilderness: "8"
+  safezone: "6"
+  warzone: "c"
+  ally: "2"
+  enemy: "4"
+  neutral: "7"
+  truce: "b"
+  player: "a"
+  you: "e"
+
+# DO NOT CHANGE THIS VALUE
+version: 2

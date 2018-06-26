@@ -1,0 +1,37 @@
+###############
+# Faction Map #
+###############
+
+# Variables:
+#
+# Warning: all placeholders have been replaced with PlaceholderAPI
+# Download it here: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# true - enabled, false - disabled
+# /map info to view the color meanings
+# /map toggle to toggle the map
+# /map reload to reload the configuration (factionscoreboard.reload)
+default-state: true
+
+map-config:
+  wilderness: "8"
+  safezone: "6"
+  warzone: "c"
+  ally: "2"
+  enemy: "4"
+  neutral: "7"
+  truce: "b"
+  player: "a"
+  you: "e"
+
+scoreboard:
+  refresh-rate: 5
+  title: "&e&lFaction Map"
+  lines:
+    - "%faction-map|7,7%" # Last 2 numbers are the size of the map
+    - "If you want placeholders"
+    - "Install Clips PlaceholderAPI"
+
+
+# DO NOT CHANGE THIS VALUE
+version: 2

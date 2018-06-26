@@ -1,0 +1,8 @@
+name: FactionNameTags
+main: com.ngxdev.faction.scoreboard.FS
+version: 3.0
+author: [Luke Kander]
+softdepend: [Factions,PlaceholderAPI,MVdWPlaceholderAPI,LegacyFactions]
+commands:
+  nametag:
+
